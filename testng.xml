@@ -1,0 +1,15 @@
+<suite name="FullSuite" parallel="false">
+    <test name="WebTests">
+        <parameter name="platform" value="web"/>
+        <classes>
+            <class name="tests.web.WebE2E"/>
+        </classes>
+    </test>
+
+    <test name="MobileTests">
+        <parameter name="platform" value="mobile"/>
+        <classes>
+            <class name="tests.mobile.MobileE2E"/>
+        </classes>
+    </test>
+</suite>
